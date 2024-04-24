@@ -22,7 +22,7 @@ resource "azurerm_linux_virtual_machine" "test" {
   network_interface_ids = [azurerm_network_interface.test.id]
   admin_ssh_key {
     username   = "${var.admin_username}"
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDMzpYqzAaBsCAcBbfvnFMpdT+dAklWbsjpwBlOToxiz/fbFXKhv3aBgdeLxmAVa1qbq1He4y2/gDNcTwsNw1RU32XZ2Goeao9bQ6bFKS27kKlVSojpNatFQ/fjz+2p5Y6fq53+wTAdrdQGq3jhgTIar1PsTbV8fyFF4VUIEC6fuXQFXxFi/i0lrjRavyryTQ9rib1P3ehUQVAsnLHQFZ5t6hjcv09cjC8mGHoDNJMai7SQnwaHzp/ehlWyQ9USxBQBylzUju1v+jdKv1UmKQPg4VhP3dG7qYfAshwSe92rXkEnZ4PqFeszVyAjD3dxzNBhUhKx/Iqc4yR7V7C2mQy2W2L+dPA9PK7U+n/sYXwvAv5M4bLzbVO1Is1dKYe8Iri90xhFP0fhLe0ZLYBG6yvVByMhy+8xcMjSvwjKGdySXrS09fwE3+7ebOg2m2bfJD/h67c9QkXOdQdehADIgIcolGHZxVzJxqOHP1uI6/wD5TZq2eJtdK+iXXOKHUbxa8s= devopsagent@anLinuxVM"
+    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDZPoOvvQSXaF6f8fosR39aS6tuXjIzdHam/vzjoK+XRhDWhxki3sl8bL+WlGDaOgUtWbxlX2LppWBVGSiVVU0hTfPM3TToC4nbXBlUK0py+UVyYbQYVgvP2mVMT9VzJizzJVN/rRybK8EK5kaNGgjZioDS4iTlAS0J4iBSN7kvFUQ1uktABxDBmax0vNwo6MgUcG0hrFu4UbzHIw5NfPs/+25ehdxTs3356AZeAmBMEbLnGhEkyY0cZGw14wTyrAgu9/hGON/hzH8IemN9/6xgv32RMUWUh7CwH0r9k2RIn29b72iZYSsIsz9FQveDnO4tXpYSf8g2cX9EK/S9yyqttnYNonuca3as1POoPkYIVigavShPwa22us5ujMIA//kIpvtqUK2+GWsmpc2q3AbO8G+DIfEGo67xX1HKsevmuHJ+TH1r04ddo+HAq2DPlbTl8IIdLkzvjG0r9jwVHFWvo7m1WbFZNav5qIIVdc3dVSP9H93/LDOBWs/RGjseS88= devopsagent@anLinuxVM"
   }
   os_disk {
     caching           = "ReadWrite"
