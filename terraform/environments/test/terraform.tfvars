@@ -1,7 +1,7 @@
 # Azure subscription vars
-subscription_id = "46f0b4f7-e5d8-488c-b438-00f74a74c84a"
-client_id = "f3e34fa3-7d8a-4104-923c-8e26afd166e3"
-client_secret = "zrb8Q~GIVJdxxrGwWd4XE6ApcuttyHENFh1DXcsB"
+subscription_id = "d6c8f7f9-b69d-4549-b504-b520b7a8ed88"
+client_id = "71b4aca3-cb3c-4e01-98e0-ac43daecf401"
+client_secret = "ydv8Q~6eQCI60BQLvnx_kj.YI1Uq7Uf5FhCloblz"
 tenant_id = "f958e84a-92b8-439f-a62d-4f45996b6d07"
 
 # Virtual machine credentials
